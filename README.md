@@ -46,8 +46,8 @@ The main goal is to identify which approach better generalizes to real-world tes
 
 | Model                     | Accuracy on Custom Test Set (24 images) |
 |--------------------------|-----------------------------------------|
-| Custom CNN (with Augmentations) | 87.5%%                                  |
-| MobileNetV2 (Fine-Tuned)  | 92%%                                  |
+| Custom CNN (with Augmentations) | 87.5%                                 |
+| MobileNetV2 (Fine-Tuned)  | 92%                                  |
 
 Although the fine-tuned MobileNetV2 improved over the frozen model, the custom CNN still showed better generalization in this domain-specific task.
 
